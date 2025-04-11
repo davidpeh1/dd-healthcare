@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | D&D Healthcare Education and Training Center</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #000;
+            background-image: url('backgroundpicture.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+
+        header {
+            background-color: #4c9faf;
+            color: white;
+            padding: 15px 20px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #f4f4f4;
+            padding: 10px 0;
+        }
+
+        nav a {
+            margin: 8px 15px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+        nav a.active {
+            color: #4c9faf;
+        }
+
+        nav a:hover {
+            color: #4c9faf;
+            text-decoration: underline;
+        }
+
+        .logo {
+            display: block;
+            margin: 20px auto;
+            max-width: 200px;
+            height: auto;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background-color: rgba(255, 255, 255, 0.85);
+            margin-top: 20px;
+        }
+
+        th, td {
+            border: 1px solid #ccc;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            table, thead, tbody, th, td, tr {
+                display: block;
+                width: 100%;
+            }
+
+            thead {
+                display: none;
+            }
+
+            tr {
+                margin-bottom: 15px;
+                border: 1px solid #ccc;
+                padding: 10px;
+                background-color: #fff;
+            }
+
+            td {
+                text-align: left;
+                padding-left: 50%;
+                position: relative;
+            }
+
+            td::before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: 45%;
+                font-weight: bold;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to D&D Healthcare Education and Training Center</h1>
+</header>
+
+<nav>
+    <a href="Homepage.html">Home</a>
+    <a href="About.html">About</a>
+    <a href="Services.html" class="active">Services</a>
+    <a href="contactinformation.html">Contact</a>
+    <a href="https://g.co/kgs/NmpXGJ5" target="_blank">Location</a>
+    <a href="https://www.facebook.com/profile.php?id=100067008370057" target="_blank">Facebook</a>
+    <a href="https://www.youtube.com/@NursePeh/videos" target="_blank">YouTube</a>
+</nav>
+
+<img src="logo2.JPG" alt="D&D Healthcare Education and Training Center Logo" class="logo">
+
+<main>
+    <h2>Services</h2>
+
+    <table>
+        <caption>Available Tutoring and Training Services</caption>
+        <thead>
+            <tr>
+                <th>Tutoring</th>
+                <th>Training - Coming Soon</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td data-label="Tutoring">Fundamentals of Nursing</td>
+                <td data-label="Training">STNA: State Tested Nursing Assistant</td>
+            </tr>
+            <tr>
+                <td data-label="Tutoring">Medical Surgical Nursing</td>
+                <td data-label="Training">CPR: Cardiopulmonary Resuscitation</td>
+            </tr>
+            <tr>
+                <td data-label="Tutoring">Pharmacology</td>
+                <td data-label="Training">HHA: Home Health Aide</td>
+            </tr>
+            <tr>
+                <td data-label="Tutoring">Mental Health Nursing</td>
+                <td data-label="Training">CNA: Certified Nursing Assistant</td>
+            </tr>
+            <tr>
+                <td data-label="Tutoring">NCLEX Exam</td>
+                <td data-label="Training">Coming Soon</td>
+            </tr>
+            <tr>
+                <td data-label="Tutoring">HESI Exam</td>
+                <td data-label="Training">Coming Soon</td>
+            </tr>
+            <tr>
+                <td data-label="Tutoring">ATI Exam</td>
+                <td data-label="Training">Coming Soon</td>
+            </tr>
+        </tbody>
+    </table>
+</main>
+
+<footer>
+    <p>&copy; 2025 D&D Healthcare Education and Training Center</p>
+</footer>
+
+</body>
+</html>
